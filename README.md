@@ -52,11 +52,12 @@ Controller, Service, Repository 계층을 분리하여
 1. 프로젝트 클론
 ```bash
 git clone https://github.com/your-id/your-repo.git
-'''bash
+```
 2. 환경 설정
 - MySQL DB 설정
 - AWS S3 Access Key / Secret Key 설정
 3. 실행
+```bash
 ./gradlew bootRun
 ```
 ---
